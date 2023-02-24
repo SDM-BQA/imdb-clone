@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function Menuitem({ title, address, Icon }) {
-    const isMobile = false
     return (
         <div>
             <Link href={address} className="mx-4 lg:mx-6 hover:text-amber-600">
